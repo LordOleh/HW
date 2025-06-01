@@ -58,4 +58,4 @@ for i in range(1,11):
         continue
     if i == 7:
         break
-    prirint(i)
+    print(i)
