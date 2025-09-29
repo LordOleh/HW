@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 
-data = yf.download("NVDA", period="5y")
+data = yf.download("NVDA", period="10y")
 df = pd.DataFrame(data)
 print(df.tail(100))
 
